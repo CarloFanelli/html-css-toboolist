@@ -9,7 +9,7 @@
 :root{
     --bool-dark:#000;
     --bool-light:#fff;
-    --bool-darkenlight: rgb(246,248,249);
+    --bool-darkenlight: rgb(225, 225, 225);
     --bool-editorial: rgb(33,170,237);
     --bool-goals: rgb(169,92,230);
     --bool-recruiting:rgb(59,199,170);
@@ -18,17 +18,41 @@
     --bool-sales: rgb(165,209,15);
 }
 
+main{
+    background-color: var(--bool-darkenlight);
+}
+
 /* #endregion Common CSS */
 
 /* #region Utility CSS */
+
+/* bs is for button with smooth border radius */
+.bs{
+    border-radius: 10px;
+    padding: 0.5rem;
+}
 
 .p1{
     padding: 1rem;
 }
 
+.pl2{
+    padding-left: 2rem;
+}
+
+.center{
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
 /* #endregion Utility CSS */
 
 /* #region Header CSS */
+
+header{
+    background-color: var(--bool-light);
+}
 
 .logo{
     vertical-align: middle;
@@ -40,3 +64,24 @@
 }
 
 /* #endregion Header CSS */
+
+/* #region Main CSS */
+.navigation_button{
+    background-color: var(--bool-light);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 1px;
+}
+
+.add_task{
+    background-color: var(--bool-editorial);
+    color: var(--bool-light);
+    border: 1px solid transparent;
+}
+
+.add_section{
+    background-color: var(--bool-light);
+    color: var(--bool-darkenlight);
+    border: 1px solid var(--bool-darkenlight);
+}
+/* #endregion Main CSS */
