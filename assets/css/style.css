@@ -22,5 +22,21 @@
 
 /* #region Utility CSS */
 
+.p1{
+    padding: 1rem;
+}
+
 /* #endregion Utility CSS */
 
+/* #region Header CSS */
+
+.logo{
+    vertical-align: middle;
+}
+
+.logo_payoff{
+    font-size: 3rem;
+    line-height: 50px;
+}
+
+/* #endregion Header CSS */
