@@ -18,8 +18,74 @@
     --bool-sales: rgb(165,209,15);
 }
 
+.editorial::after{
+    background-color: var(--bool-editorial);
+    color: var(--bool-light);
+    content: "Editorial";
+    font-size: 0.6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.goals::after{
+    background-color: var(--bool-goals);
+    color: var(--bool-light);
+    content: "Q1 Goals";
+    font-size: 0.6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.recruiting::after{
+    background-color: var(--bool-recruiting);
+    color: var(--bool-light);
+    content: "Recruiting";
+    font-size: 0.6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.mobile::after{
+    background-color: var(--bool-mobile);
+    color: var(--bool-light);
+    content: "Mobile";
+    font-size: 0.6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.website::after{
+    color: var(--bool-light);
+    background-color: var(--bool-website);
+    content: "Website";
+    font-size: 0.6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.sales::after{
+    background-color: var(--bool-sales);
+    color: var(--bool-light);
+    content: "Sales";
+    font-size: 0.6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+
 main{
     background-color: var(--bool-darkenlight);
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    line-height: 1rem;
+    padding: 1rem;
+}
+h2{
+    line-height: 2rem;
 }
 
 /* #endregion Common CSS */
@@ -35,6 +101,10 @@ main{
 .p1{
     padding: 1rem;
 }
+
+/*.pb1{
+    padding-bottom: 1rem;
+} */
 
 .pl2{
     padding-left: 2rem;
@@ -56,6 +126,8 @@ main{
 .ib{
     display: inline-block;
 }
+
+
 
 /* #endregion Utility CSS */
 
@@ -98,5 +170,9 @@ header{
 
 .workflow{
     background-color: var(--bool-light);
+}
+
+.title{
+    padding-top: 1rem;
 }
 /* #endregion Main CSS */
