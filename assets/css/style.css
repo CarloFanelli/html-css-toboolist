@@ -40,10 +40,21 @@ main{
     padding-left: 2rem;
 }
 
+.pt3{
+    padding-top: 3rem;
+}
+
+.p2{
+    padding: 2rem;
+}
+
 .center{
     width: 80%;
     margin: auto;
-    padding: 3rem 0;
+}
+
+.ib{
+    display: inline-block;
 }
 
 /* #endregion Utility CSS */
@@ -83,5 +94,9 @@ header{
     background-color: var(--bool-light);
     color: var(--bool-darkenlight);
     border: 1px solid var(--bool-darkenlight);
+}
+
+.workflow{
+    background-color: var(--bool-light);
 }
 /* #endregion Main CSS */
