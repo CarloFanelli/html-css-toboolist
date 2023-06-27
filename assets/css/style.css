@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bool-dark:#000;
+    --bool-light:#fff;
+    --bool-darkenlight: rgb(246,248,249);
+    --bool-editorial: rgb(33,170,237);
+    --bool-goals: rgb(169,92,230);
+    --bool-recruiting:rgb(59,199,170);
+    --bool-mobile:rgb(252,153,10);
+    --bool-website:rgb(233,69,158);
+    --bool-sales: rgb(165,209,15);
+}
+
 /* #endregion Common CSS */
 
 /* #region Utility CSS */
